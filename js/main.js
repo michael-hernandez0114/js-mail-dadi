@@ -21,6 +21,27 @@ if (validEmail) {
 }
 else {
     console.log('Access denied.')
-    document.getElementById('mail-messaggio').innerHTML = 'La mail:' + inputEmail + ' non e corretto. Access Denied';
-    document.getElementById('mail-messaggio').setAttribute("class", "rosso");
+    document.getElementById('mail-messaggio').innerHTML = 'La mail ' + inputEmail + ' non e corretto. Access Denied!';
+    document.getElementById('mail-messaggio').setAttribute("class", "rosso text-center font-bold");
+}
+
+
+/* Gioco dei dadi */
+var primoDado;
+var secondoDado;
+
+primoDado = Math.floor(Math.random() * 10) + 1;
+secondoDado = Math.floor(Math.random() * 10) + 1;
+
+console.log('PrimoDado: ' + primoDado);
+console.log('SecondoDado: ' + secondoDado);
+
+if (primoDado > secondoDado) {
+    console.log('PrimoDado a vinto');
+}
+else if (secondoDado > primoDado) {
+    console.log('SecondDado a vinto');
+}
+else {
+    console.log('Its a tie!');
 }

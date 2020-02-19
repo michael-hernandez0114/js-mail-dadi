@@ -20,6 +20,10 @@
     color: white;
 }
 
+.font-bold {
+    font-weight: 700;
+}
+
 #container {
     width: 100vw;
     height: 100vh;
@@ -27,8 +31,16 @@
 }
 
 #container .content {
-    width: 500px;
+    width: 700px;
     height: 300px;
     margin: auto;
     border: 2px solid black;
+}
+
+.dado-block {
+    display: flex;
+}
+
+.dado-block p {
+    flex: 0 0 50%;
 }
