@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
-.rosso {
+.bg-rosso {
     background-color: red;
 }
 
-.verde {
+.bg-verde {
     background-color: green;
+}
+
+.bg-grigio {
+    background-color: gray;
 }
 
 .text-center {
@@ -24,6 +28,16 @@
     font-weight: 700;
 }
 
+.border-top {
+    border-top: 2px solid black;
+}
+.border-right {
+    border-right: 2px solid black;
+}
+.border-left {
+    border-left: 2px solid black;
+}
+
 #container {
     width: 100vw;
     height: 100vh;
@@ -35,6 +49,10 @@
     height: 300px;
     margin: auto;
     border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: yellow;
 }
 
 .dado-block {
