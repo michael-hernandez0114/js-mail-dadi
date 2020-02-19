@@ -3,3 +3,32 @@
     border: 0;
     box-sizing: border-box;
 }
+
+.rosso {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#container .content {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+}
